@@ -3,7 +3,7 @@ import google.generativeai as genai
 from google.generativeai import types
 
 #Set up Gemini API key
-os.environ["GEMINI_API_KEY"] = "AIzaSyCa0so4Fz28UXLsM3OQa7bD2B4h_m30nYs"
+os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"
 
 def spin_chapter_with_gemini(text):
     genai.configure(api_key=os.environ["GEMINI_API_KEY"])
