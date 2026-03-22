@@ -6,7 +6,7 @@ import os
 import random
 
 #Api key 
-genai.configure(api_key="AIzaSyCa0so4Fz28UXLsM3OQa7bD2B4h_m30nYs")
+genai.configure(api_key="GEMINI_API_KEY")
 
 #Human in the iteration loop function
 def hitl_loop(file_path="spun_chapter.txt"):
